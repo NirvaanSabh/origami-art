@@ -1,0 +1,59 @@
+body{
+text-align:center;
+margin:0;
+}
+.menu{
+ list-style:none;
+ font-family:monospace;
+ position:fixed;
+ margin-top:0px;
+  top:0px;
+ right:30px;
+ z-index:10;
+ cursor:pointer;
+ width:100%;
+
+font-size:30px;
+}
+#HOME{
+background-color:indianred;
+}
+#header{
+font-size:120px;
+color:ivory;
+font-family:cursive;
+}
+.link{
+padding-top:5px;
+color:black;
+display:inline;
+padding-left:9px;
+padding-right:9px;
+padding-bottom: 5px;
+font-size:20px;
+}
+link:hover{
+background-color:white;
+font-size:25px;
+}
+#BIO{
+background:linear-gradient(#ed6868 0%,#f03e3e 100%);
+}
+img{
+border-style:groove;
+padding-top:5px;
+padding-bottom:5px;
+width:200px;
+margin:20px;
+height:150px;
+}
+p{
+margin-top:5px;
+margin-bottom:5px;
+color:black;
+font-size: 50px;
+font-family:cursive;
+}
+html{
+ scroll-behavior:smooth;
+}
